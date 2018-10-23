@@ -13,7 +13,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:gravity="center"
-        android:text="What is the temperature of the sun?"
+        android:background="@color/fondestFour"
+        android:textColor="@color/fondestOne"
+        android:text="What is the temperature of the surface of the sun?"
         android:textSize="40sp"
         android:visibility="visible" />
 
@@ -24,8 +26,20 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:gravity="center"
+        android:background="@color/fondestOne"
+        android:textColor="@color/fondestFour"
         android:text="5800 Kelvin"
         android:textSize="40sp"
         android:visibility="gone" />
+
+    <Button
+        android:id="@+id/add_new_card"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/plus" />
 
 </RelativeLayout>

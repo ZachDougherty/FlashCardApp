@@ -1,5 +1,6 @@
 package com.example.bbygbbyg.flashcardapp;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -18,5 +19,27 @@ public class MainActivity extends AppCompatActivity {
                 findViewById(R.id.flashcard_question).setVisibility(View.GONE);
             }
         });
+        findViewById(R.id.flashcard_answer).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                findViewById(R.id.flashcard_answer).setVisibility(View.GONE);
+                findViewById(R.id.flashcard_question).setVisibility(View.VISIBLE);
+            }
+        });
+        findViewById(R.id.add_new_card).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, addCardActivity.class);
+                MainActivity.this.startActivityForResult(intent, 100);
+            }
+        });
+
+        @Override
+        protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+            if (requestCode == 100) {
+                String string1 = data.getExtras().getString("string1");
+                String string2 = data.getExtras().getString("string2");
+            }
+        }
     }
 }
