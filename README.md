@@ -4,7 +4,7 @@ This app displays a question and then, when the question is clicked, it displays
 
 ## App Walkthrough
 
-![DEMO] https://user-images.githubusercontent.com/43156717/47338938-7ac00d80-d64e-11e8-8f80-e450872f44fa.gif
+![DEMO](https://user-images.githubusercontent.com/43156717/47338938-7ac00d80-d64e-11e8-8f80-e450872f44fa.gif)
 
 ## Required Features
 - [x] Create new project in Android Studio
