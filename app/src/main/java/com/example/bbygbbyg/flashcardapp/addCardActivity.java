@@ -22,7 +22,7 @@ public class addCardActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String question = ((EditText) findViewById(R.id.editQuestion)).getText().toString();
-                String answer = ((EditText) findViewById(R.id.editAnswer).getText().toString());
+                String answer = ((EditText) findViewById(R.id.editAnswer)).getText().toString();
                 Intent data = new Intent();
                 data.putExtra("question",question);
                 data.putExtra("answer",answer);
