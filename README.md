@@ -16,5 +16,5 @@ This app displays a question and then, when the question is clicked, it displays
 - [x] Toggle the flashcard between the question and answer sides
 - [ ] Style the question and answer sides of the card to better distinguish between the two sides
 - [ ] Add selectable multiple choice answers beneath the card
-  - [ ] Change the background color of the multiple choice answers when clicked to indicate whether the question waanswered correctly
+  - [ ] Change the background color of the multiple choice answers when clicked to indicate whether the question was answered correctly
 - [ ] Further customize and style the card
