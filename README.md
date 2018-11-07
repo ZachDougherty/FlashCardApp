@@ -1,4 +1,20 @@
 # Flashcard App
+## Lab 3
+### App Description
+This app now allows users to create new flashcards and have them saved in a 'deck' of flashcards. Users can then scroll through their previously created cards.
+
+### App Walk-though
+
+
+## Required
+- [x] User can create a card and still see their created card when the app is relaunched.
+- [x] User can create muliple cards and browse through all created cards
+
+## Optional
+- [ ] User can delete a card and no longer see it in their deck anymore
+- [ ] Flashcards are shown in random order instead of the order they were created in
+- [ ] User can edit a card and see the edit saved when they browse through their deck of cards
+- [ ] User can create flashcards with multiple answers and be able to browse through cards with multiple choice answers shown
 ## Lab 2 Required Features
 ## App Description
 This app displays a question and then, when the question is clicked, it displays the answer. In this version, you are able to click a 'plus' symbol, and you are taken to a new screen which allows you to create a new question and answer for your flashcard. Then, by clicking the 'save' icon, you can go back to the main screen and do as before, but with the new question.
