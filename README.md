@@ -4,7 +4,7 @@
 This app now allows users to create new flashcards and have them saved in a 'deck' of flashcards. Users can then scroll through their previously created cards.
 
 ### App Walk-though
-
+![DEMO](https://user-images.githubusercontent.com/43156717/48120183-463f7a80-e226-11e8-8b73-4ca5023ab8bf.gif)
 
 ## Required
 - [x] User can create a card and still see their created card when the app is relaunched.
