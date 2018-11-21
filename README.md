@@ -5,7 +5,7 @@
 Added animations for when a new card is added or when the next card is to be displayed, and also added new icon for app.
 
 ### App Walk-though
-![DEMO]
+![DEMO](https://user-images.githubusercontent.com/43156717/48822821-3e4a0500-ed13-11e8-8e63-d0e3c3d468dd.gif)
 
 ## Required
 - [x] User sees a transition animation when going from the main screen to the add card screen.
