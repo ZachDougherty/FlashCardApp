@@ -1,4 +1,23 @@
 # Flashcard App
+## Lab 4
+
+### App Description
+Added animations for when a new card is added or when the next card is to be displayed, and also added new icon for app.
+
+### App Walk-though
+![DEMO]
+
+## Required
+- [x] User sees a transition animation when going from the main screen to the add card screen.
+- [x] User sees a reveal animation when the flashcard is tapped and the answer is shown
+- [x] User sees flashcards animating in / out when the 'next' button is tapped
+
+## Optional
+- [ ] Extra styling is added!
+- [ ] User sees a countdown timer for each question
+- [ ] User sees a 'card flip' animation when the card is tapped
+- [ ] User sees a celebration animation with confetti when they answer a question correctly
+
 ## Lab 3
 ### App Description
 This app now allows users to create new flashcards and have them saved in a 'deck' of flashcards. Users can then scroll through their previously created cards.
@@ -15,7 +34,8 @@ This app now allows users to create new flashcards and have them saved in a 'dec
 - [ ] Flashcards are shown in random order instead of the order they were created in
 - [ ] User can edit a card and see the edit saved when they browse through their deck of cards
 - [ ] User can create flashcards with multiple answers and be able to browse through cards with multiple choice answers shown
-## Lab 2 Required Features
+
+## Lab 2
 ## App Description
 This app displays a question and then, when the question is clicked, it displays the answer. In this version, you are able to click a 'plus' symbol, and you are taken to a new screen which allows you to create a new question and answer for your flashcard. Then, by clicking the 'save' icon, you can go back to the main screen and do as before, but with the new question.
 
@@ -29,7 +49,7 @@ This app displays a question and then, when the question is clicked, it displays
 - [x] Add a Save button that will dismiss 'Add Card Screen' and return to the Main Activity where the user can see the card they just created
 - [x] Push code to Github
 
-## Lab 1 Required Features
+## Lab 1
 ## App Description
 This app displays a question and then, when the question is clicked, it displays the answer.
 
